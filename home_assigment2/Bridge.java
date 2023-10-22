@@ -5,7 +5,7 @@ class Bridge {
 
     public synchronized void enterBridge(int soldierLoad) throws InterruptedException {
        
-        while (currentLoad + soldierLoad > 12) {
+        while (currentLoad + soldierLoad > 12) { // why did we use while check and not if check?
             wait();
         }
         currentLoad += soldierLoad;
