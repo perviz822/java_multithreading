@@ -13,7 +13,7 @@ public class Soldier  extends Thread{
     public void run() {
         try {
             bridge.enterBridge(load);
-            Thread.sleep(490); // Simulating crossing the bridge
+            Thread.sleep(490); 
             bridge.leaveBridge(load);
         } catch (InterruptedException e) {
             e.printStackTrace();
