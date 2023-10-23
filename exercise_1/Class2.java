@@ -8,9 +8,6 @@ public class Class2  extends Thread{
     Class2 (Print obj){
         this.obj=obj;
     }
-   
-
-  
 
     @Override
     public  void run (){
