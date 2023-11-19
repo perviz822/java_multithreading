@@ -21,6 +21,7 @@ public synchronized Object get() {
     notify(); // called if there are any getters or putters waiting
     return o;
 }
+
 //FIRSTLY,
 
 //Why do we need a while loop surrounding the wait?
