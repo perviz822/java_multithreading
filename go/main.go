@@ -6,10 +6,9 @@ import (
 )
 
 func main() {
-	loops()
-
-	go f1()
-	f2()
+	//go f1()
+	//f2()
+	main_channels()
 
 }
 
